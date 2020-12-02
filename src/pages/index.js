@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import { FiInstagram, FiLinkedin, FiCodepen } from "react-icons/fi"
+import React from "react";
+import { Link } from "gatsby";
+import { FiInstagram, FiTwitter, FiFacebook } from "react-icons/fi";
 // import Img from "gatsby-image"
 
 // import Image from "../components/image"
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 // import articleCover from "https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155238/woo_eazy_article_header_eeuas5.jpg"
 
 // import "../pages/styles/index.scss"
@@ -22,24 +22,23 @@ const IndexPage = () => (
       /> */}
       <figure>
         <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155238/D051FE44-DA0E-4E92-B41B-604938DACA01_l9rty3.jpg"
-          alt="Maserall with Eazy"
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862456/01_hardnard_oqmjmr.jpg"
+          alt="HardNard"
         />
 
-        <figcaption>Eazy and Maserall</figcaption>
+        <figcaption>HardNard</figcaption>
       </figure>
-      <h2>Woo.Marc</h2>
+      <h2>Hard Nard: Knee Deep</h2>
       {/* <h2>Woo.Marc ~ Connect the Codes</h2> */}
-      <h2 style={{ fontSize: "30px" }}>Connect the Codes</h2>
       <br />
       <p>
-        Maserall Marcelin is the founder and CEO of the company called Woo.Marc.
-        The company specializes in building websites, app development, and
-        digital marketing. As technology continues to be a major factor in our
-        daily lives, Woo.Marc, originally an idea, is now branching out to
-        expand its current business operations and continuing to find a
-        multitude of ways to satisfy previous or upcoming clients. This is the
-        story of how the formation of Woo.Marc came to be.
+        The Central Florida rap scene continues to unfold right in front of our
+        eyes, as local talent emerges from this area at a frequent rate. One of
+        the local talents who constantly impress us here at EastEnd Links is
+        HardNard. As he continues to shape his story, work on his flow, expand
+        the Knee Deep brand, and promote his upcoming album “Hard”, HardNard
+        will be a force to be reckoned with as we bear witness to the birth of a
+        legend.
       </p>
       {/* <div className="tip tip-right">
         <p>
@@ -48,85 +47,18 @@ const IndexPage = () => (
         </p>
       </div> */}
       <blockquote>
-        <p>"If you build it, they will come"</p>
+        <p>"When life gets dark, it forces you to get hard"</p>
       </blockquote>
       <div className="tip tip-right">
-        <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155237/68479222-2E06-4A38-BD44-6EF293A13E4D_bg9pwl.jpg"
-          alt="Maserall in white button down Italian wear"
-        />
-        <figcaption>Creative founder and CEO of Woo.Marc</figcaption>
-      </div>
-      <p>
-        The moniker Woo.Marc is closely related to Maserall’s personal life. He
-        combined his nickname Woo (Which he obtained from his highschool
-        wrestling career), and the first four letters of his last name together.
-        He followed in his older brother Carlos footsteps when he was in the
-        process of naming his company, Carlos called his brand Los_Marc, and
-        Maserall approved of the name of his brother’s brand and decided to do
-        something similar. Additionally, family has the ability to allow someone
-        to unmask their true potential. Carlos, played a major role as a father
-        figure in Maserall’s life but another important individual who deserves
-        a great deal of credit in the formation of Woo.Marc is Maserall’s own
-        mother. Leaving Haiti to migrate to America to seek a better life for
-        herself and her children. Working constantly to support three children
-        and trying her hardest to conceal the true nature of her struggles in
-        front of her children. Maserall’s mother was dealing with a great amount
-        of pressure as a single parent. Maserall saw her as a pillar of strength
-        and admired her determination for her children. Witnessing the
-        hardworking nature his mother unveiled to him, Maserall dedicated
-        himself to improving the lives of those in his inner circle and the
-        people he meets through the standing of his organization.
-      </p>
-      {/* <figure> */}
-      <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155237/A766997E-310F-4354-A203-C518EE52669B_n9jn2o.jpg"
-        alt="Big Ass"
-      />
-      <figcaption>Woo.Marc founder and CEO Maserall Marcelin</figcaption>
-      {/* </figure> */}
-      <p>
-        Inspiration can occur at any time. Prior to his company, Maserall was a
-        college graduate who obtained his degree in biomedical sciences in hopes
-        of starting a career as a pharmacist. Suddenly, he stumbled upon a
-        company called Big Vision located in Orlando, FL. Big Vision is a
-        marketing company working with a variety of companies to build marketing
-        plans, designing websites, and building apps. As Maserall continued to
-        do research on Big Vision, he was learning more and more how the company
-        operated. Seeing the way they built their teams from software
-        development, photography, and videography in a professional manner
-        created a stroke of inspiration in Maserall. Immediately, discovering
-        the way Big Vision operated; Maserall wanted to present that same degree
-        of professionalism to Eazy, the CEO of FFTE and suggested changes to the
-        FFTE website.
-      </p>
-      <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155255/2D0E9C3E-0426-4176-A305-EF498BD473C2_rddugu.jpg"
-        alt="Eazy"
-      />
-      {/* <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155255/2D0E9C3E-0426-4176-A305-EF498BD473C2_rddugu.jpg"
-        alt="Eazy"
-      /> */}
-      <figcaption>CEO of FFTE</figcaption>
-      <p>
-        At the time Maserall was Eazy’s right hand man and they’ve been working
-        together closely for years, until Maserall resigned from his position to
-        focus on the formation of Woo.Marc. Even though he may not officially be
-        a FFTE member on the books, Maserall still maintains a great
-        relationship with the group and to this day still consults with them on
-        important matters.
-      </p>
-      <figure>
-        <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155239/D4E26CC1-F06E-4314-9EAD-64D0141C3513_xtqtmn.jpg"
-          alt="Big Ass"
-        />
+        <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
+          <img
+            src="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/7f/93/be/7f93beea-2c1e-dbd1-e635-4bc28691641d/artwork.jpg/270x270bb.webp"
+            alt="Maserall in white button down Italian wear"
+          />
+        </a>
         <figcaption>
-          Two bosses sitting together after a long awaited meeting
+          New HardNard album <i>Hard</i>
         </figcaption>
-      </figure>
-      <div className="tip tip-left">
         <p>
           Watch{" "}
           <em>
@@ -139,59 +71,115 @@ const IndexPage = () => (
         </p>
       </div>
       <p>
-        In the past, Woo.Marc has faced its own set of challenges. One
-        difficulty the organization had to overcome was figuring out what
-        specific services they were going to provide their clients. After
-        leaving FFTE, Maserall had taken on several different projects ranging
-        from video editing and videography, to building websites. Discovering
-        the company's identity, and how to move it forward became his top
-        priority.
+        HardNard, originally from Florida, spent a good portion of his youth
+        moving around constantly. Charlotte, North Carolina, is one of the few
+        places the artist resided in that quickly became his second home.
+        Although, at the very young age of thirteen, the artist was already
+        exposed to a life on the streets, he experienced many traumatic events
+        that would scar a child. Running from the cops with a fear of going to
+        jail at an early age, selling weed, and many more nefarious deeds. He
+        had to grow up quickly and maneuver his way around the streets to
+        survive. As he grew older he became aware of how to leave this
+        lifestyle. HardNard wanted to make a change to provide for himself and
+        the people around him, and music was the avenue that could help him
+        reach the life he truly sought after.
       </p>
+      {/* <figure> */}
+      <img
+        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/02_hardnard_lhrdrq.jpg"
+        alt="Big Ass"
+      />
+      <figcaption>Hard</figcaption>
+      {/* </figure> */}
       <p>
-        After some deep internal revision, going through all the projects that
-        he had taken on over the years, Maserall made the decision to provide
-        web development services to through Woo,Marc. This was the one area
-        where he felt he could tie in all of the things he loved to do. To
-        further invest in himself, he enrolled in a six month web development
-        bootcamp where he learned how to become master creative with mobile
-        phones and web browsers as his canvas.
+        HardNard has been writing music since childhood and was presented with
+        the opportunity to enter a studio from a producer named Trill. Trill
+        always encouraged HardNard to enter the booth to freestyle, his
+        reasoning behind this was to teach HardNard to be prepared at all times
+        to produce music, because he wouldn’t have the opportunity to write
+        every track in this industry. Naturally, HardNard protested but as the
+        pressure from Trill began to pile up, he gave it a shot. Now
+        appreciative to Trill, HardNard is comfortable to freestyle and produce
+        music without writing it. Unfortunately, in an attempt to rob Trill, he
+        was shot and passed away. Shortly after, HardNard returned to Florida
+        and received the news of Trill’s passing. Suddenly, an attempt on his
+        life was made and HardNard was shot in the leg. This action has truly
+        placed him in a dark place and he was not capable of trusting anyone for
+        a long time. Albeit, HardNard has faced many tragedies in his life,
+        being shot teached him to move differently and granted him a humbled
+        approach to life.
       </p>
       <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155236/B3E09892-449A-46E4-BD00-BB5EE5E84723_chkfby.jpg"
-        alt="Maserall taking a sip of Jack Daniels Tennesee Honey Whiskey"
+        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/03_hardnard_r5luyy.jpg"
+        alt="Eazy"
       />
-      <figcaption>
-        Taking a sip of his favorite whiskey Jack Daniels Tennesee Honey
-      </figcaption>
+      {/* <img
+        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155255/2D0E9C3E-0426-4176-A305-EF498BD473C2_rddugu.jpg"
+        alt="Eazy"
+      /> */}
+      <figcaption>Posted up, Knee Deep</figcaption>
       <p>
-        During this foundational time, Maserall also realized that when he
-        looked at the things he loved doing (from videos, photography, etc),
-        he’d rather do it for himself than for others. This was solely due to
-        his creative vision for certain projects not correlating with the
-        visions of others he had worked with, sparking a conflict of interest.
-        But Maserall began to understand that no matter how many conflicts and
-        disagreements may occur, the client's vision for their project is what
-        matters the most. And even if the creative process takes a different
-        direction, Maserall would still be present to offer sound advice to his
-        clients to ensure the highest quality of service.
-      </p>
-      <p>
-        In the end, Woo.Marc is a company that specializes in building websites,
-        mobile apps, and digital marketing. The company’s formation came from
-        humble beginnings, stemming from an idea now turned into reality.
-      </p>
-      <p>
-        If you wish to enlist the services of Woo.Marc, the starting fee begins
-        at five hundred USD and may vary depending on the work required.
+        Consequently, division remains an unwanted part of the rap world.
+        Individuals will always look out for themselves instead of cooperating
+        with others to achieve the same goals. The local rap political scene in
+        Central Florida is no different. Cities such as Atlanta and New York
+        often have many networking opportunities so that artists work together
+        to not only enhance their craft, but push each other to the next level.
+        After visiting Atlanta, HardNard wants to bring that same level of unity
+        here in Florida. To make that goal a reality the artist has collaborated
+        with other artists such as Eazy and many more local artists. In fact,
+        Eazy and HardNard's relationship is brimmed with genuine respect for
+        each other and their respective crafts. Eazy and HardNard have been
+        friends for several years, which highlights their brilliant chemistry
+        when creating tracks together. Eazy will also encourage HardNard to go
+        to the studio from time to time and not be complacent as he sees the
+        potential in HardNard. The two will continue to work together in future
+        as they build their respective brands.
       </p>
       <figure>
         <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155238/woo_eazy_article_header_eeuas5.jpg"
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/04_hardnard_puqynp.jpg"
+          alt="Big Ass"
+        />
+        <figcaption>SPO (Safe Place Only)</figcaption>
+      </figure>
+
+      <p>
+        Additionally, HardNard is the CEO of Knee Deep and an affiliate to the
+        SPO (Safe Place Only) brand. Knee Deep as a brand contains a deeper
+        meaning that most people wouldn’t know about. Knee Deep is also a form
+        of inspiration for those who have a goal to pursue that goal with
+        everything you have. The brand's meaning is a constant reminder that
+        consistently keeping the artist and his team around him motivated to
+        keep chasing their dreams. “Knee Deep is a lifestyle.” HardNard said.
+        “Whatever you do in life, whether it be ball or rapping, you knee Deep
+        in it.” Furthermore, SPO was a brand founded by a friend of HardNard’s
+        named Trap Dinero several years back. The brand quickly grew popular as
+        it resembles many designer outfits and many celebrities/influencers
+        showcase it on their platforms.
+      </p>
+
+      <p>
+        All in All, HardNard is one of the many promising talents in Central
+        Florida. His upcoming album “Hard,”carries a very significant meaning to
+        the Central Florida artist. This piece of work was meant to prove to
+        those who doubt the artist's validity in the game that he is still
+        willing to give it his all to continue making music. After releasing
+        several projects in the past, experiencing minor success and setbacks,
+        the artist wanted to create a stepping stone with his album to
+        officially show his supporters that he is looking optimistically forward
+        to the future in his music career. Also, expanding his brand Knee Deep
+        and continually improving on his sound.
+      </p>
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/05_hardnard_miutja.jpg"
           alt="Maserall and Eazy"
         />
 
         <figcaption>
-          Forever Family. <em>Eastend Links</em>
+          <em>Linked</em>
         </figcaption>
       </figure>
       <h2>Written By:</h2>
@@ -204,26 +192,35 @@ const IndexPage = () => (
           style={{
             textAlign: "center",
             fontSize: "20px",
-            fontFamily: "initial",
+            fontFamily: "initial"
           }}
         >
-          Links to reach Woo.Marc:
+          Links to reach HardNard:
           <br />
-          <a href="https://maserallmarcelin.com/">
-            <FiCodepen /> Website: MaserallMarcelin.com
+          <br />
+          <a href="https://www.instagram.com/realdealhardnard/">
+            <FiInstagram /> Instagram: @realdealhardnard
           </a>
           <br />
-          <a href="https://www.instagram.com/woo.marc/">
-            <FiInstagram /> Instagram: @woo.marc
+          <a href="https://twitter.com/LastDon100">
+            <FiTwitter /> Twitter: @lastdon100
           </a>
           <br />
-          <a href="https://www.linkedin.com/in/maserall-marcelin-76067a12b/">
-            <FiLinkedin /> LinkedIn: Maserall Marcelin
+          <a href="https://twitter.com/LastDon100">
+            <FiFacebook /> Facebook: Nutty Finesser
           </a>
+        </p>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          Next Up:
+          <br />
+          <Link to="/woomarc">Woo.Marc: Connect the Codes</Link>
         </p>
       </blockquote>
     </article>
   </>
-)
+);
 
-export default IndexPage
+export default IndexPage;
