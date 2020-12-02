@@ -57,7 +57,8 @@ const IndexPage = () => (
           />
         </a>
         <figcaption>
-          New HardNard album <i>Hard</i>
+          {/* New HardNard album <i>Hard</i> */}
+          HardNard & Eazy <i>Throw Away</i>
         </figcaption>
         <p>
           Watch{" "}
