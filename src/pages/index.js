@@ -142,12 +142,12 @@ const IndexPage = () => (
           src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/04_hardnard_puqynp.jpg"
           alt="Big Ass"
         />
-        <figcaption>SPO (Safe Place Only)</figcaption>
+        <figcaption>SPO (Safe Plays Only)</figcaption>
       </figure>
 
       <p>
         Additionally, HardNard is the CEO of Knee Deep and an affiliate to the
-        SPO (Safe Place Only) brand. Knee Deep as a brand contains a deeper
+        SPO (Safe Plays Only) brand. Knee Deep as a brand contains a deeper
         meaning that most people wouldn’t know about. Knee Deep is also a form
         of inspiration for those who have a goal to pursue that goal with
         everything you have. The brand's meaning is a constant reminder that

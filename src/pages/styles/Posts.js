@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const Posts = createGlobalStyle`
 .post {
@@ -64,6 +64,9 @@ const Posts = createGlobalStyle`
     .tip {
         padding: 0px;
         margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .tip-right {
@@ -80,6 +83,6 @@ const Posts = createGlobalStyle`
 
   }
 
-`
+`;
 
-export default Posts
+export default Posts;
