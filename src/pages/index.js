@@ -67,8 +67,7 @@ const IndexPage = () => (
               <strong>Hard </strong>
             </a>
           </em>{" "}
-          on
-          <a href="https://youtu.be/-1DqVEfJECk">Spotify</a>
+          on <a href="https://youtu.be/-1DqVEfJECk">Spotify</a>
         </p>
       </div>
       <p>
