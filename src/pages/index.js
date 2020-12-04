@@ -61,14 +61,14 @@ const IndexPage = () => (
           New album by HardNard <i>Hard</i>
         </figcaption>
         <p>
-          Watch{" "}
+          Listen to <strong>Hard Nard's</strong> new album{" "}
           <em>
             <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
-              Throw Away
+              <strong>Hard </strong>
             </a>
           </em>{" "}
-          by <strong>Hard Nard</strong> featuring <strong>Eazy</strong> on
-          <a href="https://youtu.be/-1DqVEfJECk">YouTube</a>
+          on
+          <a href="https://youtu.be/-1DqVEfJECk">Spotify</a>
         </p>
       </div>
       <p>
