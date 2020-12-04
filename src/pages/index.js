@@ -52,13 +52,13 @@ const IndexPage = () => (
       <div className="tip tip-right">
         <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
           <img
-            src="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/7f/93/be/7f93beea-2c1e-dbd1-e635-4bc28691641d/artwork.jpg/270x270bb.webp"
-            alt="Maserall in white button down Italian wear"
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1607041456/image00002_oxhkjy.jpg"
+            alt="Hard Nard Album Artwork"
           />
         </a>
         <figcaption>
           {/* New HardNard album <i>Hard</i> */}
-          HardNard & Eazy <i>Throw Away</i>
+          New album by HardNard <i>Hard</i>
         </figcaption>
         <p>
           Watch{" "}
