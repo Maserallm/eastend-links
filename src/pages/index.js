@@ -26,14 +26,12 @@ const IndexPage = () => (
       <figure>
         <img
           src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07666_rzh3p7.jpg"
-          // src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07712_pmqlct.jpg"
           alt="TBEEZI"
         />
 
         <figcaption>TBEEZI</figcaption>
       </figure>
       <h2>The Season of the Beez</h2>
-      {/* <h2>Woo.Marc ~ Connect the Codes</h2> */}
       <br />
       <p>
         Tbeezi is an artist located in Central Florida who earned our attention
@@ -54,12 +52,7 @@ const IndexPage = () => (
         a nickname related to the artist government name and is still related to
         his previous stage name. Thus Tbeezi was formed.
       </p>
-      {/* <div className="tip tip-right">
-        <p>
-          This is a story about humble beginnings told by{" "}
-          <a href="https://www.instagram.com/soirilus_/">Soirilus</a>
-        </p>
-      </div> */}
+
       <blockquote>
         <p>"God gives His toughest battles to his strongest soldiers"</p>
       </blockquote>
@@ -72,7 +65,6 @@ const IndexPage = () => (
         </a>
 
         <figcaption>
-          {/* New HardNard album <i>Hard</i> */}
           <i>The Black One</i>
         </figcaption>
         <p>
@@ -180,7 +172,6 @@ const IndexPage = () => (
         </a>
 
         <figcaption>
-          {/* New HardNard album <i>Hard</i> */}
           <i>0-12</i>
         </figcaption>
         <p>
