@@ -11,6 +11,9 @@ import SEO from "../components/seo";
 
 // export const query = graphql``
 
+// Query MDX to this index page so that articles are brought in by the most recent post.
+// Create Articles Page that contains the previous articles with images of previous interviews
+
 const IndexPage = () => (
   <>
     <SEO title="Home" />
@@ -22,23 +25,34 @@ const IndexPage = () => (
       /> */}
       <figure>
         <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862456/01_hardnard_oqmjmr.jpg"
-          alt="HardNard"
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07666_rzh3p7.jpg"
+          // src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07712_pmqlct.jpg"
+          alt="TBEEZI"
         />
 
-        <figcaption>HardNard</figcaption>
+        <figcaption>TBEEZI</figcaption>
       </figure>
-      <h2>Hard Nard: Knee Deep</h2>
+      <h2>The Season of the Beez</h2>
       {/* <h2>Woo.Marc ~ Connect the Codes</h2> */}
       <br />
       <p>
-        The Central Florida rap scene continues to unfold right in front of our
-        eyes, as local talent emerges from this area at a frequent rate. One of
-        the local talents who constantly impress us here at EastEnd Links is
-        HardNard. As he continues to shape his story, work on his flow, expand
-        the Knee Deep brand, and promote his upcoming album “Hard”, HardNard
-        will be a force to be reckoned with as we bear witness to the birth of a
-        legend.
+        Tbeezi is an artist located in Central Florida who earned our attention
+        here at Eastend Links. After all the trials Tbeezi has faced, he still
+        carries a humble, passionate and appreciative outlook in everything that
+        he does. As his repertoire of music continues to grow, we began to
+        understand how Tbeezi’s story came into fruition.
+      </p>
+
+      <p>
+        Before being known as Tbeezi, in the early stages of his music career
+        Tbeezi’s name wasn’t Tbeezi at all. His previous name was “I Am Music,”
+        dissatisfied with the name, due to its generalized nature the artist
+        formerly changed his alias to Tbeezi. In the process he encountered some
+        criticism from those around him for the moniker. Tbeezi, a strong-minded
+        individual, was adamant on keeping this new name. On the contrary, why
+        did the artist call himself Tbeezi? Well the answer is simple, Beezi is
+        a nickname related to the artist government name and is still related to
+        his previous stage name. Thus Tbeezi was formed.
       </p>
       {/* <div className="tip tip-right">
         <p>
@@ -47,135 +61,162 @@ const IndexPage = () => (
         </p>
       </div> */}
       <blockquote>
-        <p>"When life gets dark, it forces you to get hard"</p>
+        <p>"God gives His toughest battles to his strongest soldiers"</p>
       </blockquote>
       <div className="tip tip-right">
-        <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
+        <a href="https://open.spotify.com/album/5QEptrmQaSAaPpJRAR0SEk?si=0S0Xp7R6Q9CqTIJxghGzdg">
           <img
-            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1607041456/image00002_oxhkjy.jpg"
-            alt="Hard Nard Album Artwork"
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609852838/tbeezi_theblackone_y0zpg3.jpg"
+            alt="TBEEZI The Black One Artwork"
           />
         </a>
+
         <figcaption>
           {/* New HardNard album <i>Hard</i> */}
-          New album by HardNard <i>Hard</i>
+          <i>The Black One</i>
         </figcaption>
         <p>
-          Listen to <strong>Hard Nard's</strong> new album{" "}
+          Listen to <strong>TBEEZI's</strong> new album{" "}
           <em>
-            <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
-              <strong>Hard </strong>
+            <a href="https://www.youtube.com/channel/UC59nWOrCeJu6Lq6Y76zdfDQ/featured">
+              <strong>The Black One </strong>
             </a>
           </em>{" "}
-          on <a href="https://youtu.be/-1DqVEfJECk">Spotify</a>
+          on{" "}
+          <a href="https://www.youtube.com/channel/UC59nWOrCeJu6Lq6Y76zdfDQ/featured">
+            YouTube
+          </a>
         </p>
       </div>
       <p>
-        HardNard, originally from Florida, spent a good portion of his youth
-        moving around constantly. Charlotte, North Carolina, is one of the few
-        places the artist resided in that quickly became his second home.
-        Although, at the very young age of thirteen, the artist was already
-        exposed to a life on the streets, he experienced many traumatic events
-        that would scar a child. Running from the cops with a fear of going to
-        jail at an early age, selling weed, and many more nefarious deeds. He
-        had to grow up quickly and maneuver his way around the streets to
-        survive. As he grew older he became aware of how to leave this
-        lifestyle. HardNard wanted to make a change to provide for himself and
-        the people around him, and music was the avenue that could help him
-        reach the life he truly sought after.
+        Tbeezi, was born into a household with five other siblings and a single
+        mother. His father was absent the majority of the time and only visited
+        when the need arose. Growing up, Tbeezi felt like the black sheep of the
+        family, due to his introverted nature, but never took any of his
+        family’s personal gripes against him seriously. The artist came to terms
+        with his reality after witnessing the hardships his mother had to endure
+        while carrying the responsibility to raise six children. Although his
+        father was barely present, he only appeared when the artist was getting
+        in trouble in his adolescent years. The punishment Tbeezi’s father would
+        impose on him would be to sit in a corner and read the dictionary for a
+        long period of time. At the moment, the disciplinary actions his father
+        took felt redundant to Tbeezi, but this “punishment” served a greater
+        purpose by allowing Tbeezi to fall in love with reading and learning new
+        words, which eventually helped him develop his lyrically ability.
+        Although, he wished his father was more present in his life, he couldn’t
+        pin any blame to him, due to the fact, he didn’t know the situation his
+        father was in that correlated to him not being around his family more.
       </p>
       {/* <figure> */}
       <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/02_hardnard_lhrdrq.jpg"
+        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07716_e1ccsg.jpg"
         alt="Big Ass"
       />
-      <figcaption>Hard</figcaption>
+      <figcaption>The Black One</figcaption>
       {/* </figure> */}
       <p>
-        HardNard has been writing music since childhood and was presented with
-        the opportunity to enter a studio from a producer named Trill. Trill
-        always encouraged HardNard to enter the booth to freestyle, his
-        reasoning behind this was to teach HardNard to be prepared at all times
-        to produce music, because he wouldn’t have the opportunity to write
-        every track in this industry. Naturally, HardNard protested but as the
-        pressure from Trill began to pile up, he gave it a shot. Now
-        appreciative to Trill, HardNard is comfortable to freestyle and produce
-        music without writing it. Unfortunately, in an attempt to rob Trill, he
-        was shot and passed away. Shortly after, HardNard returned to Florida
-        and received the news of Trill’s passing. Suddenly, an attempt on his
-        life was made and HardNard was shot in the leg. This action has truly
-        placed him in a dark place and he was not capable of trusting anyone for
-        a long time. Albeit, HardNard has faced many tragedies in his life,
-        being shot teached him to move differently and granted him a humbled
-        approach to life.
+        Despite witnessing the disadvantages of his own upbringing. Tbeezi is
+        currently a father of his own, playing an active role in his son’s life.
+        Understanding the benefits of having a parental figure around; Tbeezi,
+        brings his son virtually everywhere with him, whether it be the studio,
+        playing ball at a local park, or eating out somewhere. Establishing that
+        emotional bond with his child is extremely important to him as he wants
+        to do everything in his power to provide a path of success for his son.
+        As he knows the consequences of not having a parental figure around.  At
+        a young age Tbeezi succumbed to life on the streets for a brief amount
+        of time. His perspective on everything changed as he was shot at
+        alongside his brother on his birthday, but managed to walk away
+        unharmed. Now, Tbeezi uses these experiences to teach his son that there
+        is more to life and that he can achieve greatness with hard work.
       </p>
       <img
-        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/03_hardnard_r5luyy.jpg"
+        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07712_pmqlct.jpg"
         alt="Eazy"
       />
       {/* <img
         src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1604155255/2D0E9C3E-0426-4176-A305-EF498BD473C2_rddugu.jpg"
         alt="Eazy"
       /> */}
-      <figcaption>Posted up, Knee Deep</figcaption>
+      <figcaption>"Grind in my eyes"</figcaption>
       <p>
-        Consequently, division remains an unwanted part of the rap world.
-        Individuals will always look out for themselves instead of cooperating
-        with others to achieve the same goals. The local rap political scene in
-        Central Florida is no different. Cities such as Atlanta and New York
-        often have many networking opportunities so that artists work together
-        to not only enhance their craft, but push each other to the next level.
-        After visiting Atlanta, HardNard wants to bring that same level of unity
-        here in Florida. To make that goal a reality the artist has collaborated
-        with other artists such as Eazy and many more local artists. In fact,
-        Eazy and HardNard's relationship is brimmed with genuine respect for
-        each other and their respective crafts. Eazy and HardNard have been
-        friends for several years, which highlights their brilliant chemistry
-        when creating tracks together. Eazy will also encourage HardNard to go
-        to the studio from time to time and not be complacent as he sees the
-        potential in HardNard. The two will continue to work together in future
-        as they build their respective brands.
+        Furthermore, the artist's lyrics contain a deeper meaning then the
+        generic Hip-Hop flare of money, drugs, and women. Tbeezi emphasised that
+        the lyrics he writes are about things he personally went through; from
+        his harsh upbringing to his experience in the streets. Consequently,
+        Tbeezi almost planned to retire from music entirely, to truly focus on
+        his personal life. After releasing a music video to one of his songs,
+        Tbeezi read a comment someone posted on the video about how his music
+        helped them get through a tough time in their life. Seeing this comment
+        ignited a newfound inspiration that rekindled Tbezzi’s passion to create
+        music again, as he knew he had the power to change the lives of many.
       </p>
       <figure>
         <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/04_hardnard_puqynp.jpg"
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07677_q9g2bj.jpg"
           alt="Big Ass"
         />
-        <figcaption>SPO (Safe Plays Only)</figcaption>
+
+        <figcaption>Posted up, all white</figcaption>
       </figure>
 
       <p>
-        Additionally, HardNard is the CEO of Knee Deep and an affiliate to the
-        SPO (Safe Plays Only) brand. Knee Deep as a brand contains a deeper
-        meaning that most people wouldn’t know about. Knee Deep is also a form
-        of inspiration for those who have a goal to pursue that goal with
-        everything you have. The brand's meaning is a constant reminder that
-        consistently keeping the artist and his team around him motivated to
-        keep chasing their dreams. “Knee Deep is a lifestyle.” HardNard said.
-        “Whatever you do in life, whether it be ball or rapping, you knee Deep
-        in it.” Furthermore, SPO was a brand founded by a friend of HardNard’s
-        named Trap Dinero several years back. The brand quickly grew popular as
-        it resembles many designer outfits and many celebrities/influencers
-        showcase it on their platforms.
+        Cities like Atlanta, New York, and Los Angeles have benefited over the
+        years with their outstanding networking capabilities. As the Central
+        Florida rap scene continues to develop in front of our eyes, Tbeezi has
+        expressed his views on the political side of things. Tbeezi stated that
+        artists should support each other more often to highlight each other’s
+        talents and build that pipeline of success in Central Florida. One
+        person Tbeezi shows a lot of respect to in this regard is Sevyn
+        Streeter, a Central Florida native, who granted Tbeezi the opportunity
+        to perform at Love, Peace, and Unity concert in Downtown Haines City,
+        with other major artists and producers spectating the moment. 
+      </p>
+      <div className="tip tip-left">
+        <a href="https://soundcloud.com/eazyffte/eazy-0-12-ft-tbeezi">
+          <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609862957/0-12artwork_tkc2q1.png"
+            alt="0-12 Artwork"
+          />
+        </a>
+
+        <figcaption>
+          {/* New HardNard album <i>Hard</i> */}
+          <i>0-12</i>
+        </figcaption>
+        <p>
+          <strong>TBEEZI & Eazy's</strong> new track{" "}
+          <em>
+            <a href="https://soundcloud.com/eazyffte/eazy-0-12-ft-tbeezi">
+              <strong>0-12</strong>
+            </a>
+          </em>{" "}
+          only at{" "}
+          <a href="http://ffteblog.com/">
+            <strong>FFTEBLOG.COM</strong>
+          </a>
+        </p>
+      </div>
+      <p>
+        One of the many things that makes Tbeezi a unique artist is his
+        willingness to remain as an independent artist. Tbeezi doesn’t want to
+        sign with a label as it would strip him from his freedom to manage and
+        own his music. Instead the artist opted out to remain independent and
+        work with other independent brands such as KneeDeep and FFTE, having an
+        established relationship with them.
       </p>
 
       <p>
-        All in All, HardNard is one of the many promising talents in Central
-        Florida. His upcoming album “Hard,”carries a very significant meaning to
-        the Central Florida artist. This piece of work was meant to prove to
-        those who doubt the artist's validity in the game that he is still
-        willing to give it his all to continue making music. After releasing
-        several projects in the past, experiencing minor success and setbacks,
-        the artist wanted to create a stepping stone with his album to
-        officially show his supporters that he is looking optimistically forward
-        to the future in his music career. Also, expanding his brand Knee Deep
-        and continually improving on his sound.
+        In the end, Tbeezi is a Central Florida artist with a unique sound and a
+        dope message of self empowerment. His lyrics captivate the person behind
+        the mic and truly highlights his story and all the things he’s been
+        through. With his humbled and passionate outlook on life, Tbeezi’s sound
+        will continue to expand its reach and impact those who hear his music.
       </p>
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1606862455/05_hardnard_miutja.jpg"
-          alt="Maserall and Eazy"
+          src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1609821209/DSC07682_kllsog.jpg"
+          alt="TBEEZI"
         />
 
         <figcaption>
@@ -195,19 +236,19 @@ const IndexPage = () => (
             fontFamily: "initial"
           }}
         >
-          Links to reach HardNard:
+          Links to reach TBEEZI:
           <br />
           <br />
-          <a href="https://www.instagram.com/realdealhardnard/">
-            <FiInstagram /> Instagram: @realdealhardnard
+          <a href="https://www.instagram.com/tbeezi_/">
+            <FiInstagram /> Instagram: @tbeezi_
           </a>
           <br />
-          <a href="https://twitter.com/LastDon100">
-            <FiTwitter /> Twitter: @lastdon100
+          <a href="https://twitter.com/Tbeezi_The_Goat">
+            <FiTwitter /> Twitter: @Tbeezi_The_Goat
           </a>
           <br />
           <a href="https://www.facebook.com/hardn">
-            <FiFacebook /> Facebook: Nutty Finesser
+            <FiFacebook /> Facebook: Tbeezi TheGoat
           </a>
         </p>
       </blockquote>
@@ -216,7 +257,7 @@ const IndexPage = () => (
         <p>
           Next Up:
           <br />
-          <Link to="/woomarc">Woo.Marc: Connect the Codes</Link>
+          <Link to="/hardnard">Hard Nard: Knee Deep</Link>
         </p>
       </blockquote>
     </article>

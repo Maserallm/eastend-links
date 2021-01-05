@@ -1,9 +1,13 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 
 const NavStyles = styled.nav`
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-style: italic;
 
   ul {
     margin: 0;
@@ -18,7 +22,7 @@ const NavStyles = styled.nav`
   }
 
   a {
-    font-size: 3rem;
+    font-size: 1.2rem;
     text-decoration: none;
     &:hover {
       color: var(--gray);
@@ -27,22 +31,24 @@ const NavStyles = styled.nav`
       color: var(--gray);
     }
   }
-`
+`;
 
 const Nav = () => {
-  ;<NavStyles>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/">LOGO</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
-      </li>
-    </ul>
-  </NavStyles>
-}
+  return (
+    <NavStyles>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/articles">Articles</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
+    </NavStyles>
+  );
+};
 
-export default Nav
+export default Nav;
