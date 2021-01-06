@@ -94,7 +94,7 @@ const IndexPage = () => (
         long period of time. At the moment, the disciplinary actions his father
         took felt redundant to Tbeezi, but this “punishment” served a greater
         purpose by allowing Tbeezi to fall in love with reading and learning new
-        words, which eventually helped him develop his lyrically ability.
+        words, which eventually helped him develop his lyrical ability.
         Although, he wished his father was more present in his life, he couldn’t
         pin any blame to him, due to the fact, he didn’t know the situation his
         father was in that correlated to him not being around his family more.
