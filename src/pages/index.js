@@ -238,7 +238,7 @@ const IndexPage = () => (
             <FiTwitter /> Twitter: @Tbeezi_The_Goat
           </a>
           <br />
-          <a href="https://www.facebook.com/hardn">
+          <a href="https://www.facebook.com/believethat.page">
             <FiFacebook /> Facebook: Tbeezi TheGoat
           </a>
         </p>
