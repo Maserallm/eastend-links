@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FiInstagram, FiTwitter, FiFacebook } from "react-icons/fi";
+import { FiInstagram, FiTwitter, FiFacebook, FiYoutube } from "react-icons/fi";
 // import Img from "gatsby-image"
 
 // import Image from "../components/image"
@@ -53,7 +53,10 @@ const IndexPage = () => (
         <p>"When life gets dark, it forces you to get hard"</p>
       </blockquote>
       <div className="tip tip-right">
-        <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
+        <a
+          href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q"
+          target="_blank"
+        >
           <img
             src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1607041456/image00002_oxhkjy.jpg"
             alt="Hard Nard Album Artwork"
@@ -66,11 +69,20 @@ const IndexPage = () => (
         <p>
           Listen to <strong>Hard Nard's</strong> new album{" "}
           <em>
-            <a href="https://open.spotify.com/track/1ndOr9Um0fn4Dy6AlaumYr?si=wiW-kFr6Qd27lMSocG_t3Q">
+            <a
+              href="https://open.spotify.com/album/52eG7WKRQbovO8g20RqtIy?si=OKuI0_WxQfajecfbfqGO7A&dl_branch=1"
+              target="_blank"
+            >
               <strong>Hard </strong>
             </a>
           </em>{" "}
-          on <a href="https://youtu.be/-1DqVEfJECk">Spotify</a>
+          on{" "}
+          <a
+            href="https://open.spotify.com/artist/0SLEnkMu9lviIYbD3pn8xL?si=Fg23oWXoRem_Ze1M2WIaJA&dl_branch=1"
+            target="_blank"
+          >
+            Spotify
+          </a>
         </p>
       </div>
       <p>
@@ -189,7 +201,10 @@ const IndexPage = () => (
       <blockquote>
         <p>
           {" "}
-          ~<a href="https://www.instagram.com/soirilus_/">Jonathan Soirilus</a>
+          ~
+          <a href="https://www.instagram.com/soirilus_/" target="_blank">
+            Jonathan Soirilus
+          </a>
         </p>
         <p
           style={{
@@ -201,15 +216,22 @@ const IndexPage = () => (
           Links to reach HardNard:
           <br />
           <br />
-          <a href="https://www.instagram.com/realdealhardnard/">
+          <a href="https://www.instagram.com/realdealhardnard/" target="_blank">
             <FiInstagram /> Instagram: @realdealhardnard
           </a>
           <br />
-          <a href="https://twitter.com/LastDon100">
+          <a
+            href="https://www.youtube.com/channel/UCrSlHChNFSOItsUCy_6bwyA"
+            target="_blank"
+          >
+            <FiYoutube /> YouTube: Official Hard Nard Channel
+          </a>
+          <br />
+          <a href="https://twitter.com/LastDon100" target="_blank">
             <FiTwitter /> Twitter: @lastdon100
           </a>
           <br />
-          <a href="https://www.facebook.com/hardn">
+          <a href="https://www.facebook.com/hardn" target="_blank">
             <FiFacebook /> Facebook: Nutty Finesser
           </a>
         </p>
